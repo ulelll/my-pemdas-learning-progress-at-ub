@@ -21,7 +21,7 @@ int main() { //using int and main
 
     //string to double 
     string numberTextD = "34.56"; //ga bisa pakai character huruf 
-    double number = stoi(numberTextD); 
+    double number = stod(numberTextD); 
     //Note: When converting strings to numbers,
     //these functions read as many valid characters as 
     //possible from the start of the string. 
